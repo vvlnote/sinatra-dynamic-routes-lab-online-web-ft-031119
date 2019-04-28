@@ -18,7 +18,7 @@ class App < Sinatra::Base
     "#{num}, #{phrase}"
 
     for i in 1..num do
-      "#{phrase}"
+      <p><%= phrase %></p>
     end
   end
 end
