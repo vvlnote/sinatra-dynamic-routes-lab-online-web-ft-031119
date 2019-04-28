@@ -20,4 +20,5 @@ class App < Sinatra::Base
       <p><%= phrase %></p>
     end
   end
+
 end
