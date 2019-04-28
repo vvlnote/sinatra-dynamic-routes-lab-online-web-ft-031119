@@ -33,9 +33,12 @@ class App < Sinatra::Base
     num1 = params[:number1].to_i
     num2 = params[:number2].to_i
     
-    "#{num1 + num2}"
-    "#{num1 - num2}"
-    "#{num1 * num2}"
+    add2 = num1 + num2
+    subtract2 = num1 - num2
+    multiply2 = num1 * num2
+    divide2 = num1/num2
+    
+    "#{add2}, #{subtract2}, #{multiply2}, #{divide2}"
   end
   
 end
