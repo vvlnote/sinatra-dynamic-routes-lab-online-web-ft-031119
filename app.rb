@@ -20,7 +20,7 @@ class App < Sinatra::Base
     for i in 1..num
       str << phrase
     end
-    "#{str.flat"
+    "#{str}"
   end
 
 end
