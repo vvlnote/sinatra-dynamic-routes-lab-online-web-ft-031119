@@ -17,7 +17,7 @@ class App < Sinatra::Base
     phrase = params[:phrase]
     "#{num}, #{phrase}"
     for i in 1..num
-      #"#{phrase}"
+      "#{i}"
     end
   end
 
